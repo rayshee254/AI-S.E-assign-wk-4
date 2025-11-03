@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Portal</title>
+   
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <div id="loginPage" class="page active">
+            <div class="login-container">
+                <div class="school-logo">
+                    <h1>🏫 School Portal</h1>
+                    <p>Welcome to Student Login System</p>
+                </div>
+
+                <form id="loginForm">
+                    <div class="form-group">
+                        <label for="studentId">Student ID</label>
+                        <input type="text" id="studentId" name="studentId" placeholder="Enter your student ID" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                    </div>
+
+                    <button type="submit" class="login-btn" id="loginBtn">
+                        <span class="btn-text">Login</span>
+                        <span class="btn-loading" style="display: none;">Loading...</span>
+                    </button>
+
+                    <div id="errorMessage" class="error-message">
+                        Invalid student ID or password. Please try again.
+                    </div>
+
+                    <div id="successMessage" class="success-message">
+                        Login successful! Redirecting to dashboard...
+                    </div>
+                </form>
+
+                <div class="test-credentials">
+                    <h3>Test Credentials:</h3>
+                    <p>STU001 / password123</p>
+                    <p>STU002 / school2024</p>
+                    <p>admin / admin123</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="portalPage" class="page">
+            <div class="portal-container">
+                <header class="portal-header">
+                    <h1>📚 Student Portal</h1>
+                    <div class="user-info">
+                        <span id="welcomeUser">Welcome, Student</span>
+                        <button id="logoutBtn" class="logout-btn">Logout</button>
+                    </div>
+                </header>
+
+                <main class="portal-main">
+                    <div class="courses-section">
+                        <h2>My Courses</h2>
+                        <div id="coursesList" class="courses-grid"></div>
+                    </div>
+                </main>
+            </div>
+        </div>
+
+        <div id="courseModal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <div id="courseDetails"></div>
+            </div>
+        </div>
+    </div>
+    <script defer src="script.js"></script>
+</body>
+</html>
