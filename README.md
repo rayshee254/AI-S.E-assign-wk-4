@@ -29,7 +29,7 @@ It consists of three key parts:
   * Q3: Importance of bias mitigation in personalization.
   * Case Study: AIOps and its role in improving deployment efficiency.
 
-📄 **Insert Report Link Here:** [Add link to your uploaded PDF]
+📄 **Report Link:** [(https://acrobat.adobe.com/id/urn:aaid:sc:eu:8c3aae2b-466c-42d7-8b47-2f5f5894ba9c)]
 
 ---
 
@@ -45,7 +45,7 @@ It consists of three key parts:
 * AI-suggested and manual code versions
 * Analysis report (~200 words) comparing efficiency and clarity
 * Screenshots of Copilot suggestions
-  📄 [Insert link to code or notebook]
+  📄 [(https://acrobat.adobe.com/id/urn:aaid:sc:eu:8c3aae2b-466c-42d7-8b47-2f5f5894ba9c)]
 
 ---
 
@@ -59,8 +59,8 @@ It consists of three key parts:
 * Test script and configuration files
 * Screenshot of test results
 * 150-word summary explaining AI’s impact on test coverage
-  📸 [Insert screenshot link]
-  📄 [Insert link to test script or documentation]
+  📸 [[Screenshot and documentation](https://acrobat.adobe.com/id/urn:aaid:sc:eu:8c3aae2b-466c-42d7-8b47-2f5f5894ba9c)]
+  
 
 ---
 
